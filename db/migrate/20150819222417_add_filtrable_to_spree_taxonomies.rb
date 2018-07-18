@@ -1,4 +1,4 @@
-class AddFiltrableToSpreeTaxonomies < ActiveRecord::Migration[5.1]
+class AddFiltrableToSpreeTaxonomies < ActiveRecord::Migration[4.2]
   def change
     add_column :spree_taxonomies, :filterable, :boolean
   end
